@@ -15,7 +15,7 @@
 
   
 ### Project Overview
-This project investigates the relationship between HbA1c levels—a critical biomarker for diabetes management—and hospital readmission rates. 
+This project investigates the relationship between HbA1c levels, a critical biomarker for diabetes management, and hospital readmission rates. 
 The analysis aims to uncover:
 
 1. How HbA1c measurements influence readmission patterns.  
@@ -27,7 +27,7 @@ The analysis aims to uncover:
 
 ### Data Sources
 
-Diabetic Data: The primary dataset used for this analysis is the 'org_diabetic_data.csv,' containing 101,766 encounters focused on cases where diabetes is coded as an existing condition. Readmissions are classified as “readmitted” (within 30 days) or “otherwise,” aiming to identify factors influencing early readmission and improve diabetes care strategies.
+Diabetic Data: The primary dataset used for this analysis is the 'org_diabetic_data.csv,' containing 101,766 encounters focused on cases where diabetes is coded as an existing condition. Readmissions are classified as "readmitted" (within 30 days) or "otherwise," aiming to identify factors influencing early readmission and improve diabetes care strategies.
 
 ### Tools
 
@@ -40,7 +40,7 @@ Diabetic Data: The primary dataset used for this analysis is the 'org_diabetic_d
 The dataset contained several features with significant missing values:
  - Weight: 97% missing, excluded due to sparsity.
  - Payer Code: 40% missing, removed as it was irrelevant to the outcome.
- - Medical Specialty: 47% missing, retained with missing values replaced by "missing."
+ - Medical Specialty: 47% missing, retained with missing values replaced by "missing." 
 
 #### Handling Duplicates and Missing Values:
 - Removed duplicate encounters.
